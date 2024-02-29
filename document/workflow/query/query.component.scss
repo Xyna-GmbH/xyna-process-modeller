@@ -23,7 +23,7 @@
 
     .config-area {
         display: flex;
-        margin-top: -$service-step-border-radius;   // to compensate rounded corners of area above
+        margin-top: -$service-step-border-radius; // to compensate rounded corners of area above
         padding: 12px;
         align-items: baseline;
 
@@ -33,12 +33,12 @@
         border-bottom-left-radius: $service-step-border-radius;
         border-bottom-right-radius: $service-step-border-radius;
 
-        > *:not(:last-child) {
+        >*:not(:last-child) {
             margin-right: 16px;
         }
     }
 
-    ::ng-deep .mat-form-field .mat-form-field-label {
+    ::ng-deep .mat-mdc-form-field .mat-mdc-text-field-wrapper .mat-mdc-floating-label.mdc-floating-label {
         color: $color-gray-1;
     }
 }
