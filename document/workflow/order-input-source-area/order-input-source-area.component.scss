@@ -42,12 +42,13 @@
         display: none;
     }
 
-    ::ng-deep .mat-form-field {
-        .mat-form-field-label {
+    ::ng-deep .mat-mdc-form-field {
+        .mat-mdc-text-field-wrapper .mat-mdc-floating-label.mdc-floating-label {
             color: $color-gray-1;
         }
+
         .mat-icon {
-            font-weight: 400;        // FIXME for some reason, these styles have to be set explicitly here, although they are set fpr the autocomplete in another context
+            font-weight: 400; // FIXME for some reason, these styles have to be set explicitly here, although they are set fpr the autocomplete in another context
             font-size: 21px;
         }
     }
